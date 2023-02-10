@@ -11,10 +11,13 @@ endif()
 
 find_package(ament_cmake REQUIRED)
 
-find_package(gary_hardware REQUIRED)
-find_package(gary_simulation REQUIRED)
-find_package(gary_controllers REQUIRED)
-find_package(gary_msg REQUIRED)
+find_package(gary_bringup REQUIRED)
+find_package(gary_can REQUIRED)
+find_package(gary_common REQUIRED)
+find_package(gary_controller REQUIRED)
 find_package(gary_description REQUIRED)
+find_package(gary_hardware REQUIRED)
+find_package(gary_msgs REQUIRED)
+find_package(gary_serial REQUIRED)
 
 ament_package()
